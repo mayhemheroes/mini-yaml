@@ -1,0 +1,6 @@
+project: mini-yaml
+target: miniyaml-fuzz
+
+cmds:
+    - cmd: ./miniyaml-fuzz
+      libfuzzer: true
